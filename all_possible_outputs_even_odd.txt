@@ -1,0 +1,134 @@
+ALL POSSIBLE OUTPUT EXAMPLES FOR THE GIVEN PYTHON PROGRAM
+===============================================================
+
+1. Positive even number
+-----------------------
+Enter a number: 10
+10 is Even.
+
+
+2. Positive odd number
+----------------------
+Enter a number: 7
+7 is Odd.
+
+
+3. Zero
+--------
+Enter a number: 0
+0 is Even.
+
+
+4. Negative even number
+-----------------------
+Enter a number: -8
+-8 is Even.
+
+
+5. Negative odd number
+----------------------
+Enter a number: -5
+-5 is Odd.
+
+
+6. Single-digit even number
+---------------------------
+Enter a number: 2
+2 is Even.
+
+
+7. Single-digit odd number
+--------------------------
+Enter a number: 9
+9 is Odd.
+
+
+8. Large positive even number
+-----------------------------
+Enter a number: 100000
+100000 is Even.
+
+
+9. Large positive odd number
+----------------------------
+Enter a number: 99999
+99999 is Odd.
+
+
+10. Large negative even number
+------------------------------
+Enter a number: -100000
+-100000 is Even.
+
+
+11. Large negative odd number
+-----------------------------
+Enter a number: -99999
+-99999 is Odd.
+
+
+12. Invalid input - alphabet
+----------------------------
+Enter a number: hello
+Invalid input. Please enter a whole number.
+
+
+13. Invalid input - decimal number
+----------------------------------
+Enter a number: 5.5
+Invalid input. Please enter a whole number.
+
+
+14. Invalid input - special characters
+--------------------------------------
+Enter a number: @#$%
+Invalid input. Please enter a whole number.
+
+
+15. Invalid input - empty input
+------------------------------
+Enter a number: 
+Invalid input. Please enter a whole number.
+
+
+16. Invalid input - mixed characters and numbers
+------------------------------------------------
+Enter a number: 12abc
+Invalid input. Please enter a whole number.
+
+
+17. Invalid input - space-separated numbers
+-------------------------------------------
+Enter a number: 10 20
+Invalid input. Please enter a whole number.
+
+
+18. Very large integer
+---------------------
+Enter a number: 12345678901234567890
+12345678901234567890 is Even.
+
+
+19. Very large odd integer
+--------------------------
+Enter a number: 12345678901234567891
+12345678901234567891 is Odd.
+
+
+20. Positive number with + sign
+------------------------------
+Enter a number: +12
+12 is Even.
+
+
+21. Negative number with leading zeros
+--------------------------------------
+Enter a number: -004
+-4 is Even.
+
+
+NOTE:
+- The program accepts any integer, including positive, negative, and zero.
+- It rejects input that cannot be converted using int().
+- Each run accepts only one input.
+- The exact output depends on the number entered.
